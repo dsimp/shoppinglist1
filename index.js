@@ -1,7 +1,7 @@
 function lineItem(){
     $('.shopping-list').on('click', '.shopping-item-toggle', function(e){
         e.preventDefault();
-        $(e.target).closest('li').find('.shopping-item).toggleClass('.shopping-item_checked');
+        $(e.target).closest('li').find('.shopping-item').toggleClass('.shopping-item_checked');
 
     });
 }
